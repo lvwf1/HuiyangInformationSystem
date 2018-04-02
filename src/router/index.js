@@ -1,15 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
+import SubmitRate from '@/components/36hsubmit'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    }
+    { path: '/36hsubmit', component: SubmitRate},
   ]
 })

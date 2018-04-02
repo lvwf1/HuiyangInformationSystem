@@ -8,6 +8,15 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+    proxyTable: {
+      '/hyapi':{
+        target:'http://10.176.82.242:8080/HYSYS',
+        changeOrigin:true,//允许跨域
+        pathRewrite:{
+          '^/hyapi': '/'
+        }
+      }
+    },
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
@@ -23,11 +32,19 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8080,
+    port: 8081,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/hyapi':{
+        target:'http://localhost:8080/HYSYS',
+        changeOrigin:true,//允许跨域
+        pathRewrite:{
+          '^/hyapi': '/'
+        }
+      }
+    },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
     // (https://github.com/webpack/css-loader#sourcemaps)
