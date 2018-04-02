@@ -3,23 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import store from './vuex/store'
-import { sync } from 'vuex-router-sync'
-import VueSweetAlert from 'vue-sweetalert'
+import VueGoodTable from 'vue-good-table';
 
+Vue.use(VueGoodTable);
 Vue.config.productionTip = false
-Vue.use(VueSweetAlert)
-
-router.beforeEach((to, from, next) => {
-    // to and from are both route objects
-    next()
-})
 
 /* eslint-disable no-new */
 new Vue({
-    el: '#app',
-    store: store,
-    router: router,
-    template: '<App/>',
-    components: { App }
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>'
 })
