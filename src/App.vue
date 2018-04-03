@@ -36,7 +36,4 @@ export default {
   color: #fff;
   text-align:left;
 }
-.headerbackground{
-  background: url('./assets/background.png')
-}
 </style>
