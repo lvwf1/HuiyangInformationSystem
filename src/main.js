@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueGoodTable from 'vue-good-table';
+import VueGoodTable from 'vue-good-table'
+import 'babel-polyfill'
 
 Vue.use(VueGoodTable);
 Vue.config.productionTip = false

@@ -1,5 +1,6 @@
 <template>
 <div class="white">
+    <app-sec-menu></app-sec-menu>
     <div class="col-xs-2">
     <app-third-menu></app-third-menu>
     </div>
@@ -9,15 +10,17 @@
 <script>
 import echarts from 'echarts'
 import axios from 'axios'
+import secmenu from '@/components/secondmenu'
 import thirdmenu from '@/components/thirdmenu'
 
 var dev_url="/hyapi/hyMasServlet?action=GetHy36HMothly"
 var prod_url="http://10.176.82.242:8080/HYSYS/hyMasServlet?action=GetHy36HMothly"
-var curr_url=prod_url
+var curr_url=dev_url
 
 export default {
     components: {
-        appThirdMenu:thirdmenu
+    appSecMenu: secmenu,
+    appThirdMenu: thirdmenu
     },
     props: {
     width: {

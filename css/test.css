@@ -1,0 +1,22 @@
+.navtest {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+
+.navtest>li {
+	position: relative;
+	display: block
+}
+
+.navtest>li>a {
+	position: relative;
+	display: block;
+	padding: 10px 15px
+}
+
+.navtest>li>a:focus,
+.navtest>li>a:hover {
+	text-decoration: none;
+	background-color: #eee
+}

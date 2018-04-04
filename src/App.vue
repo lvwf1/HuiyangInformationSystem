@@ -2,22 +2,17 @@
   <div id="app">
     <div class="headerbackground">
     <app-header></app-header>
-    </div>
-    <app-sec-header></app-sec-header>
     <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import topmenu from './components/topmenu';
-import secondmenu from './components/secondmenu'
-import thirdmenu from './components/thirdmenu'
+import topmenu from './components/topmenu'
 export default {
   name: 'App',
   components: {
     appHeader: topmenu,
-    appSecHeader: secondmenu,
-    appThirdHeader: thirdmenu
   },
   data () {
     return {

@@ -1,0 +1,384 @@
+			body {
+				padding-top: 50px;
+				padding-left: 0px;
+				/*	background-color: black*/
+			}
+
+			.container1 {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			
+			.nav-tabs1 {
+				border-bottom: 1px solid #ddd
+			}
+			
+			.nav-tabs1>li {
+				float: left;
+				/*	margin-bottom: -1px*/
+				margin-bottom: 1px;
+			}
+			
+			.nav-tabs1>li>a {
+				margin-right: 2px;
+				line-height: 1.42857143;
+				border: 1px solid transparent;
+				border-radius: 4px 4px 0 0;
+				display: block;
+			}
+			
+			.nav-tabs1>li>a:hover {
+				/*border-color: #eee #eee #ddd*/
+			}
+			
+			.nav-tabs1>li.active>a,
+			.nav-tabs1>li.active>a:focus,
+			.nav-tabs1>li.active>a:hover {
+				color: #555;
+				cursor: default;
+				/*background-color: #fff;*/
+				/*	border: 1px solid #ddd;*/
+				/*	border-bottom-color: transparent*/
+				border-bottom: 2px solid red/* 新加*/
+				/*border-bottom-color: red;*/
+			}
+				
+			
+			.nav-tabs1>li>#tabautotools {
+				font-size: 20px;
+				font-weight: bold;
+				color: white;
+				
+			}
+			
+			.nav-tabs1>li>#tabautotools:hover {
+				color: white;
+				background: transparent;
+			}
+			
+			
+			
+			.nav-tabs1>li.active>#tabautotools,
+			.nav-tabs1>li.active>#tabautotools:focus,
+			.nav-tabs1>li.active>#tabautotools:hover {
+				
+				color: black;
+				cursor: pointer;
+				background-color: transparent;
+				border-color: transparent;
+			}
+			
+			
+			#tabautotools:focus {
+				border-bottom: 2px solid red;
+				color: black;
+			}
+			/*.nav-tabs1.nav-justified {
+				width: 100%;
+				border-bottom: 0
+			}
+			
+			.nav-tabs1.nav-justified>li {
+				float: none
+			}
+			
+			.nav-tabs1.nav-justified>li>a {
+				margin-bottom: 5px;
+				text-align: center
+			}*/
+			/*@media (min-width:768px) {
+				.nav-tabs1.nav-justified>li {
+					display: table-cell;
+					width: 1%
+				}
+				.nav-tabs1.nav-justified>li>a {
+					margin-bottom: 0
+				}
+			}
+			*/
+			/*.nav-tabs1.nav-justified>li>a {
+				margin-right: 0;
+				border-radius: 4px
+			}
+			*/
+			/*.nav-tabs1.nav-justified>.active>a,
+			.nav-tabs1.nav-justified>.active>a:focus,
+			.nav-tabs1.nav-justified>.active>a:hover {
+				border: 1px solid #ddd
+			}
+			*/
+			/*@media (min-width:768px) {
+				.nav-tabs1.nav-justified>li>a {
+					border-bottom: 1px solid #ddd;
+					border-radius: 4px 4px 0 0
+				}
+				.nav-tabs1.nav-justified>.active>a,
+				.nav-tabs1.nav-justified>.active>a:focus,
+				.nav-tabs1.nav-justified>.active>a:hover {
+					border-bottom-color: #fff
+				}
+			}*/
+			
+			.row {
+				margin-top: 15px;
+				font-size: larger;
+			}
+			
+			.icon-make-group:before {
+				content: "\1f301";
+			}
+			/*.ico {
+				color: green;
+				font-size: 30px;
+			}
+			
+			.ico:focus,
+			.ico:hover {
+				color: black;
+				cursor: pointer;
+			}*/
+			/*svg path { fill: inherit; }*/
+			/*.codrops-1{
+			fill:deepskyblue;
+			color: deepskyblue;
+		}
+		.codrops-1:focus,
+		.codrops-1:hover{
+			fill: black;
+			color: black;
+			cursor: pointer;
+			backface-visibility: hidden;
+		}*/
+			
+			.fade1 {
+				opacity: 0;
+				-webkit-transition: opacity .15s linear;
+				-o-transition: opacity .15s linear;
+				transition: opacity .15s linear
+			}
+			
+			.modal.fade1 .modal-dialog {
+				-webkit-transition: -webkit-transform .3s ease-out;
+				-o-transition: -o-transform .3s ease-out;
+				transition: transform .3s ease-out;
+				-webkit-transform: translate(0, -25%);
+				-ms-transform: translate(0, -25%);
+				-o-transform: translate(0, -25%);
+				transform: translate(0, -25%)
+			}
+			
+			.modal-backdrop.fade1 {
+				filter: alpha(opacity=0);
+				opacity: 0
+			}
+			
+			.pie {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background: yellowgreen;
+				background-image: linear-gradient(to right, transparent 50%, #655 0);
+			}
+			
+			.pie::before {
+				content: '';
+				display: block;
+				margin-left: 50%;
+				height: 100%;
+				border-radius: 0 100% 100% 0/50%;
+				background-color: inherit;
+				transform-origin: left;
+				transform: rotate(.2turn);
+			}
+			
+			.dataLable {
+				background: #024695;
+				text-align: center;
+				color: white;
+				margin:10px;
+			}
+			
+			.workflow-list li {
+				list-style: none outside none;
+				margin-bottom: 10px;
+
+			}
+			
+			.workflow-list li.workflow-item {
+				margin: 15px;
+			}
+			
+			.workflow-list li .vote-item-wrap {
+				padding: 10px;
+			}
+			
+			.workflow-list li .workflow {
+				font-size: 20px;
+				width: 250px;
+				background: #A6B5BD;
+				color: white;
+				padding: 3px 5px;
+				border-radius:10px;
+				background: -webkit-linear-gradient(#666, #999); /* Safari 5.1 - 6.0 */
+				background: -o-linear-gradient(#666, #999); /* Opera 11.1 - 12.0 */
+				background: -moz-linear-gradient(#666, #999); /* Firefox 3.6 - 15 */
+				background: linear-gradient(#666, #999); /* 标准的语法 */
+			}
+			
+			.workflow-list li .workflow:hover {
+				cursor: pointer;
+				border-radius:10px;
+				background: -webkit-linear-gradient(rgb(0, 255, 0),rgb(0, 128, 0)); /* Safari 5.1 - 6.0 */
+				background: -o-linear-gradient(rgb(0, 255, 0),rgb(0, 128, 0)); /* Opera 11.1 - 12.0 */
+				background: -moz-linear-gradient(rgb(0, 255, 0),rgb(0, 128, 0)); /* Firefox 3.6 - 15 */
+				background: linear-gradient(rgb(0, 255, 0),rgb(0, 128, 0)); /* 标准的语法 */
+			}
+			
+/*主页下方tab*/
+.col-md-1{
+	width: 200px;
+}
+.navul{
+	width: 200px;
+}
+			.tab {
+				font-size: 20px;
+				font-weight: bold;
+				color: white;
+				text-decoration: none;
+				/*border: 1px solid red;*/
+				width: 200px;
+				
+			}
+
+			.tab:hover{
+				text-decoration: none;
+			}
+			.liheight{
+				height: 105px;
+				width: 180px;
+				margin-left: 50px;
+				
+			}
+			.dashboard{
+				background: url(../src/assets/bg2.png);
+			}
+			.dashmenu{
+				padding:20px;
+			}
+			
+			.capacity1 {
+				background: url(../src/assets/capacitynew.png) no-repeat;
+				cursor: pointer;
+				width: 103px; height: 121px;
+				/*text-decoration: none;*/
+			}	
+
+			.tab:hover .capacity1{
+				background: url(../src/assets/capacitynewHover.png) no-repeat;
+				width: 103px; height: 121px;
+			}
+			
+
+			.delivery {
+				background: url(../src/assets/delivery.png) no-repeat;
+				cursor: pointer;
+				width: 87px; height: 121px;
+			}
+			.tab:hover .delivery {
+				background: url(../src/assets/deliveryHover.png) no-repeat;
+				width: 87px; height: 121px;
+			}
+
+  			.effiency {
+				background: url(../src/assets/effiency.png) no-repeat;
+				cursor: pointer;
+				width: 119px; height: 121px;
+			}
+			.tab:hover .effiency {
+				background: url(../src/assets/effiencyHover.png) no-repeat;
+				width: 119px; height: 121px;
+			}
+			
+			.cost {
+				background: url(../src/assets/cost.png) no-repeat;
+				cursor: pointer;
+				width: 88px; height: 121px;
+			}
+			.tab:hover .cost {
+				background: url(../src/assets/costHover.png) no-repeat;
+				width: 88px; height: 121px;
+			}
+			
+			.vas {
+				background: url(../src/assets/vas.png) no-repeat;
+				cursor: pointer;
+				width: 96px; height: 121px;
+			}
+			.tab:hover .vas {
+				background: url(../src/assets/vasHover.png) no-repeat;
+				width: 96px; height: 121px;
+			}
+	
+			.quality {
+				background: url(../src/assets/quality.png) no-repeat;
+				cursor: pointer;
+				width: 86px; height: 121px;
+			}
+			.tab:hover .quality {
+				background: url(../src/assets/qualityHover.png) no-repeat;
+				width: 86px; height: 121px;
+			}
+			
+			.device {
+				background: url(../src/assets/device.png) no-repeat;
+				cursor: pointer;
+				width: 91px; height: 121px;
+			}
+			.tab:hover .device {
+				background: url(../src/assets/deviceHover.png) no-repeat;
+				width: 91px; height: 121px;
+			}
+
+			.storage {
+				background: url(../src/assets/storage.png) no-repeat;
+				cursor: pointer;
+				width: 103px; height: 121px;
+			}
+			.tab:hover .storage {
+				background: url(../src/assets/storageHover.png) no-repeat;
+				width: 103px; height: 115px;
+			}
+			.staff {
+				background: url(../src/assets/staff.png) no-repeat;
+				cursor: pointer;
+				width: 103px; height: 104px;
+			}
+			.tab:hover .staff {
+				background: url(../src/assets/staffHover.png) no-repeat;
+				width: 103px; height: 104px;
+			}
+			
+			
+			.lablef{
+				margin-bottom: 0;
+			}
+			.headerbackground{
+				background: url(../src/assets/background.png)
+			  }
+			  .dashboardtitle{
+				font-size:20px;
+				text-align: center; 
+				color: black; 
+				width: 200px;
+				height: 30px;
+				margin: auto;
+				line-height: 30px; 
+				border: 2px solid #fff ridge; 
+				border-radius: 5px;
+				box-shadow: 2px 2px 5px #000;
+				background: -webkit-linear-gradient(#eee, #bbb); /* Safari 5.1 - 6.0 */
+				background: -o-linear-gradient(#eee, #bbb); /* Opera 11.1 - 12.0 */
+				background: -moz-linear-gradient(#eee, #bbb); /* Firefox 3.6 - 15 */
+				background: linear-gradient(#eee, #bbb); /* 标准的语法 */
+			  }
