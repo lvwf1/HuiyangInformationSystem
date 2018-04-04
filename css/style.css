@@ -311,12 +311,12 @@
 			}
 			
 			.vas {
-				background: url(../src/assets/vas.png) no-repeat;
+				background: url(../src/assets/VAS.png) no-repeat;
 				cursor: pointer;
 				width: 96px; height: 121px;
 			}
 			.tab:hover .vas {
-				background: url(../src/assets/vasHover.png) no-repeat;
+				background: url(../src/assets/VASHover.png) no-repeat;
 				width: 96px; height: 121px;
 			}
 	

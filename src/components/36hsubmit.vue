@@ -15,7 +15,7 @@ import thirdmenu from '@/components/thirdmenu'
 
 var dev_url="/hyapi/hyMasServlet?action=GetHy36HMothly"
 var prod_url="http://10.176.82.242:8080/HYSYS/hyMasServlet?action=GetHy36HMothly"
-var curr_url=dev_url
+var curr_url=prod_url
 
 export default {
     components: {

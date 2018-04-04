@@ -56,7 +56,7 @@
 											</a>
                     </div>
                     <div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab" >
 											<ul class="nav navul">
 												<li class="liheight">
 													<div class="effiency"></div>
@@ -65,10 +65,10 @@
 											</a>
                     </div>
 										<div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab">
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="cost" style=""></div>
+													<div class="cost"></div>
 												</li>
 												</ul>
 											</a>
@@ -77,43 +77,43 @@
 	                	<a href="#autoTools" class="tab">
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="vas" style=""></div>
+													<div class="vas"></div>
 												</li>
 												</ul>
 											</a>
                     </div>
 										<div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab">
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="quality" style=""></div>
+													<div class="quality"></div>
 												</li>
 												</ul>
 											</a>
                     </div>
 										<div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab">
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="device" style=""></div>
+													<div class="device"></div>
 												</li>
 												</ul>
 											</a>
                     </div>
 										<div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab">
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="storage" style=""></div>
+													<div class="storage"></div>
 												</li>
 												</ul>
 											</a>
                     </div>
 										<div class="col-lg-1 col-md-4 col-sm-6" style="padding:20px">
-	                	<a href="#autoTools" class="tab" style="">
+	                	<a href="#autoTools" class="tab" >
 											<ul class="nav navul">
 												<li class="liheight">
-													<div class="staff" style=""></div>
+													<div class="staff" ></div>
 												</li>
 												</ul>
 											</a>
